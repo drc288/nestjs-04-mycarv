@@ -1,0 +1,8 @@
+# Create a new user
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+  "password": "123Hola",
+  "email": "davidroserocalle@mail.com"
+}
