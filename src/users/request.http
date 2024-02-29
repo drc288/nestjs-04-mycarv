@@ -7,6 +7,9 @@ Content-Type: application/json
   "email": "Rose800@mail.com"
 }
 
+### Who am I?
+GET http://localhost:3000/auth/whoami
+
 ### Login
 POST http://localhost:3000/auth/signin
 Content-Type: application/json
@@ -15,6 +18,9 @@ Content-Type: application/json
   "password": "123Hola",
   "email": "Rose800@mail.com"
 }
+
+### Logout
+POST http://localhost:3000/auth/signout
 
 ### Find a user
 GET http://localhost:3000/auth/3
